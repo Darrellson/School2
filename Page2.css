@@ -1,0 +1,427 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 50px;
+    padding-top: 30px;
+    width: 100%;
+    height: 10vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    font-size: 19px;
+    background-image: url(n3.PNG);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 5%;
+}
+.nav-bar a {
+    color: black;
+    text-decoration: none;
+}
+.nav-bar a:hover {
+    color: blue;
+}
+.mobile {
+    visibility: hidden;
+}
+.hamburger {
+    visibility: hidden;
+}
+.wrapper {
+    background: url(back12.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 800px;
+    max-height: auto;
+}
+.aside h1 {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 15px;
+    font-size: 40px;
+    color: white;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+}
+.card6 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+.card6 .img6 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 270px;
+    background: url(pic1.PNG) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.card6 h2 {
+    text-align: center;
+    position: relative;
+    bottom: 5.5%;
+    margin: 5px;
+    color: rgb(0, 0, 0);
+}
+.card6 h3 {
+    position: relative;
+    bottom: -9%;
+    left: -50%;
+    margin: 5px;
+    color: rgb(0, 0, 0);
+}
+.card1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+.card1 .img1 {
+    width: 300px;
+    height: 270px;
+    background: url(pic2.PNG) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.card1 h2 {
+    margin: 5px;
+    color: rgb(0, 0, 0);
+}
+.card1 h3 {
+    margin: 5px;
+    color: rgb(0, 0, 0);
+}
+.card2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+.card2 .img2 {
+    width: 300px;
+    height: 270px;
+    background: url(pic3.PNG) no-repeat;
+   background-position: center;
+    background-size:  cover;
+} 
+.card2 h2 {
+    margin: 5px;
+    color: rgb(0, 0, 0);
+}
+.card2 h3 {
+    margin: 5px;
+    color: rgb(0, 0, 0);
+}
+.card3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+.card3 .img3 {
+    width: 300px;
+    height: 270px;
+    background: url(pic5.PNG) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card3 h2 {
+    margin: 5px;
+    color: rgb(0, 0, 0);
+}
+.card3 h3 {
+    margin: 5px;
+    color: rgb(0, 0, 0);
+}
+.card4 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+.card4 .img4 {
+    width: 300px;
+    height: 270px;
+    background: url(pic4.PNG) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card4 h2 {
+    margin: 5px;
+    color: rgb(0, 0, 0);
+}
+.card4 h3 {
+    margin: 5px;
+    color: rgb(0, 0, 0);
+}
+.card5 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+.card5 .img5 {
+    width: 300px;
+    height: 270px;
+    background: url(pic6.PNG) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card5 h2 {
+    margin: 5px;
+    color: rgb(0, 0, 0);
+}
+.card5 h3 {
+    margin: 5px;
+    color: rgb(0, 0, 0);
+}
+@media screen and (max-width: 650px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .nav-bar {
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        justify-content: space-evenly;
+        width: 100%;
+        padding: 50px;
+        padding-top: 30px;
+        width: 100%;
+        height: 10vh;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+        font-size: 19px;
+        background-image: url(n3.PNG);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-x: 5%;
+    }
+    .nav-bar a {
+        color: black;
+        text-decoration: none;
+        visibility: hidden;
+    }
+    .nav-bar a:hover {
+        color: blue;
+    }
+    .hamburger {
+        position: relative;
+        display: block;
+        width: 50px;
+        cursor: pointer;
+        appearance: none;
+        background: none;
+        outline: none;
+        border: none;
+        z-index: 99999;
+        visibility: visible;
+    }
+    .mobile {
+        visibility: visible;
+        position: fixed;
+        top: 0;
+        left: 100%;
+        width: 100%;
+        min-height: 100vh;
+        display: block;
+        background-image:linear-gradient(gray,white);
+        padding-top: 120px;
+        transition: 0.4s;
+    }
+    .mobile.is-active {
+        left: 0;
+    }
+    .mobile .main a {
+                display: block;
+                margin: 0 auto;
+                width: 100%;
+                max-width: 200px;
+                text-align: center;
+                margin-bottom: 16px;
+                padding: 12px 16px;
+                background-color: rgba(128, 128, 128, 70);
+                color: white;
+                text-decoration: none;
+    }
+    .mobile .main a:hover {
+        background-color:rgba(190, 189, 189, 0.384);
+    }
+    .aside h1 {
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        padding: 15px;
+        font-size: 40px;
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 30px;
+    }
+    .card6 {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+        width: 300px;
+        height: 400px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    }
+    .card6 .img6 {
+        width: 300px;
+        height: 270px;
+        background: url(pic1.PNG) no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .card6 h2 {
+        position: relative;
+        bottom: 5.5%;
+        margin: 5px;
+    }
+    .card6 h3 {
+        position: relative;
+        bottom: -9%;
+        left: -50%;
+        margin: 5px;
+    }
+    .card1 {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+        width: 300px;
+        height: 400px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    }
+    .card1 .img1 {
+        width: 300px;
+        height: 270px;
+        background: url(pic2.PNG) no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .card1 h2 {
+        margin: 5px;
+    }
+    .card1 h3 {
+        margin: 5px;
+    }
+    .card2 {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+        width: 300px;
+        height: 400px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    }
+    .card2 .img2 {
+        width: 300px;
+        height: 270px;
+        background: url(pic3.PNG) no-repeat;
+       background-position: center;
+        background-size:  cover;
+    } 
+    .card2 h2 {
+        margin: 5px;
+    }
+    .card2 h3 {
+        margin: 5px;
+    }
+    .card3 {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+        width: 300px;
+        height: 400px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    }
+    .card3 .img3 {
+        width: 300px;
+        height: 270px;
+        background: url(pic5.PNG) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .card3 h2 {
+        margin: 5px;
+    }
+    .card3 h3 {
+        margin: 5px;
+    }
+    .card4 {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+        width: 300px;
+        height: 400px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    }
+    .card4 .img4 {
+        width: 300px;
+        height: 270px;
+        background: url(pic4.PNG) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .card4 h2 {
+        margin: 5px;
+    }
+    .card4 h3 {
+        margin: 5px;
+    }
+    .card5 {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+        width: 300px;
+        height: 400px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    }
+    .card5 .img5 {
+        width: 300px;
+        height: 270px;
+        background: url(pic6.PNG) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .card5 h2 {
+        margin: 5px;
+    }
+    .card5 h3 {
+        margin: 5px;
+    }
+}
+
